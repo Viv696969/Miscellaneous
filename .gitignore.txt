@@ -1,4 +1,4 @@
-.gitignore
+.gitignore.txt
 meeting_summarizer_and_diarizer\.env
 meeting_summarizer_and_diarizer/test.mp4
 meeting_summarizer_and_diarizer/test.mp3
