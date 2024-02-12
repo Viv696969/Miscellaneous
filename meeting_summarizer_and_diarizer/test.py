@@ -3,11 +3,16 @@ from time import time
 import assemblyai as aai
 import openai
 import json
+import os
+# from dotenv import load_dotenv
 
-aai.settings.api_key = "dedd87116b7544b8b0e2e0c6204c14bb" 
-API_KEY_chatgpt='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'
+# load_dotenv()
 
-openai.api_key = API_KEY_chatgpt
+
+# os.getenv('OPEN_AI_API_KEY')
+
+
+# openai.api_key = API_KEY_chatgpt
 transcriber = aai.Transcriber()
 print("transcriber loaded")
 st=time()
@@ -51,11 +56,11 @@ output = openai.ChatCompletion.create(
 )
 
 # Print out the whole output dictionary
-
+print(output)
 # Get the output text only
-data=json.loads(output['choices'][0]['message']['content'])
-print(data['title'])
-print(data['summary'])
+# data=json.loads(output['choices'][0]['message']['content'])
+# print(data['title'])
+# print(data['summary'])
 print(speaker_text)
 print(transcript.audio_duration)
 
