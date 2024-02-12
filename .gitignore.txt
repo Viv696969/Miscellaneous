@@ -1,5 +1,5 @@
-.gitignore.txt
-meeting_summarizer_and_diarizer/.env
+.gitignore
+meeting_summarizer_and_diarizer\.env
 meeting_summarizer_and_diarizer/test.mp4
 meeting_summarizer_and_diarizer/test.mp3
 meeting_summarizer_and_diarizer/min_5.mp4
