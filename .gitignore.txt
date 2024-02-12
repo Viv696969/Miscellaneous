@@ -1,3 +1,0 @@
-.gitignore
-meeting_summarizer_and_diarizer\*.mp4
-meeting_summarizer_and_diarizer\*.mp3
